@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Form</title>
+    <link rel="stylesheet" href="mycontactform.css">
+</head>
+<body>
+    <section class="container">
+
+        <form action="">
+
+            <h1 class="main_welcome">Welcome!</h1>
+            <h1 class="main_register">Register Your Self</h1>
+            <hr>
+
+            <div class="namediv">
+                <span>First Name <span class="star">*</span> 
+                    <input type="text" name="fname" id="" placeholder="Enter your name" required>
+                </span>
+    
+                <span>Last Name <span class="star">*</span> 
+                    <input type="text" name="lname" id="" style="margin-left: 45px;" placeholder="Enter your last name" required>
+                </span>
+            </div>
+
+            <div class="emaildiv">
+                <span>Email <span class="star">*</span> 
+                    <input type="email" name="email" id="" placeholder="Enter your email" required>
+                </span>
+    
+                <span>Phone Number <span class="star">*</span> 
+                    <input type="number" name="phone" id="" placeholder="0321-9988776" required>
+                </span>
+            </div>
+
+            <div class="gandardiv">
+
+                <span>
+                    Gandar <span class="star">*</span> 
+                    <span style="color: brown;margin-left: 40px;" class="ganclass" >Male <input type="radio" name="gandar" required>
+                          Female <input type="radio" name="gandar" required>  
+                    </span> 
+                </span>
+
+                <span style="margin-left: 280px;">
+                    Date Of Birth <span class="star">*</span> <input type="date" name="dob" required>
+                </span>
+
+            </div>
+
+            <div class="add">
+
+                <span>Address <span class="star">*</span>  <textarea name="address" id="" cols="80" rows="7" required placeholder="House# R.11, Bagh e Jinnah Society.."></textarea></span>
+
+            </div>
+            <span>Course <span class="star">*</span>
+                <select name="card_type" id="" required>
+                    <option value="">--Select a course--</option>
+                    <option value="bsse">BSSE</option>
+                    <option value="css">CSS</option>
+                    <option value="mba">MBA</option>
+                    <option value="bba">BBA</option>
+                </select>
+            </span>
+            
+            <div>
+                <input type="submit" value="Register">
+            </div>
+
+
+        </form>
+
+    </section>
+</body>
+</html>
